@@ -1,23 +1,23 @@
-body {
-  background-color: #48494B;
-};
+body { 
+  background-color: #48494B; 
+} 
 
-a:link {
-  color: #FFFFFF;
-  text-decoration: none;
-};
+a:link { 
+  color: #FFFFFF; 
+  text-decoration: none; 
+} 
 
-a:visited {
-  color: #E0F3FF;
-  text-decoration: none;
-};
+a:visited { 
+  color: #E0F3FF; 
+  text-decoration: none; 
+} 
 
-a:hover {
-  color: #90D5FF;
-  text-decoration: none;
-};
+a:hover { 
+  color: #90D5FF; 
+  text-decoration: none; 
+} 
 
-a:active {
-  color: #D5FFFF;
-  text-decoration: none;
-};
+a:active { 
+  color: #D5FFFF; 
+  text-decoration: none; 
+}
