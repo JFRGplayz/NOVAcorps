@@ -4,12 +4,19 @@ body {
 
 header {
   background-color: #000000;
-  margin: 8px;
+  margin: 16px;
+  padding: 32px;
+  border-color: #FFFFFF
+  border: 8px;
 }
 
 .hero {
   color: #FFFFFF;
   background-color: #000000;
+  margin: 32px;
+  padding: 64px;
+  border-color: #FFFFFF;
+  border: 8px;
 }
 
 a:link { 
