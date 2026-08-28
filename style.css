@@ -1,6 +1,10 @@
 body { 
-  background-color: #48494B; 
+  background-color: #1c1c1c; 
 } 
+
+header {
+  background-color: #FFFFFF;
+}
 
 a:link { 
   color: #FFFFFF; 
