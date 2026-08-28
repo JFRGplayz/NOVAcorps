@@ -1,11 +1,10 @@
 body {
-background-color: #48494B;
+  background-color: #48494B;
 };
 
 a:link {
   color: #FFFFFF;
   text-decoration: none;
-  
 };
 
 a:visited {
