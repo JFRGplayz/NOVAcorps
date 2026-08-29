@@ -1,5 +1,5 @@
 body { 
-  background-color: #1c1c1c; 
+  background-color: #141414; 
 } 
 
 #navbar {
@@ -7,12 +7,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #000000;
+  background-color: #1c1c1c;
 }
 
 #hero {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #1c1c1c;
   padding: 64px;
 }
 
