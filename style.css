@@ -5,19 +5,12 @@ body {
 header {
   background-color: #000000;
   padding: 32px;
-  border: 8px;
-  border-style: solid;
-  border-color: #FFFFFF;
-  
 }
 
 .hero {
   color: #FFFFFF;
   background-color: #000000;
-  margin: 32px;
   padding: 64px;
-  border-color: #FFFFFF;
-  border: 8px;
 }
 
 a:link { 
