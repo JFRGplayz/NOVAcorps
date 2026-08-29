@@ -1,5 +1,5 @@
 body { 
-  background-color: #141414; 
+  background-color: #000000; 
 } 
 
 #navbar {
@@ -8,12 +8,12 @@ body {
   align-items: center;
   padding: 1rem 2rem;
   margin: 4px;
-  background-color: #1c1c1c;
+  background-color: #0d0d0d;
 }
 
 #hero {
   color: #FFFFFF;
-  background-color: #1c1c1c;
+  background-color: #0d0d0d;
   padding: 64px;
 }
 
