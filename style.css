@@ -18,6 +18,20 @@ body {
   margin: 4px;
 }
 
+#title, #subtitle {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#title {
+  font-weight: 700;
+}
+
+#subtitle {
+  font-weight: 200;
+}
+
 a:link { 
   color: #FFFFFF; 
   text-decoration: none; 
