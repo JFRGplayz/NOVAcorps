@@ -2,9 +2,12 @@ body {
   background-color: #1c1c1c; 
 } 
 
-header {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
   background-color: #000000;
-  padding: 32px;
 }
 
 .hero {
