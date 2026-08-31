@@ -56,12 +56,31 @@ body {
   z-index: 5;
 }
 
-#nav-title .logo-wrap img, #hero-title .logo-wrap img {
+#nav-title .nav-logo-wrap img {
   position: absolute;
 
   /* Sizes the logo */
   width: 125px;
   height: 125px;
+
+  object-fit: contain;
+
+  /* Positions the logo */
+  left: -50px;
+  top: -88.5px;
+
+  /* Gives the logo the angled look */
+  transform: rotate(10deg);
+
+  z-index: 2;
+}
+
+#hero-title .hero-logo-wrap img {
+  position: absolute;
+
+  /* Sizes the logo */
+  width: 100px;
+  height: 100px;
 
   object-fit: contain;
 
