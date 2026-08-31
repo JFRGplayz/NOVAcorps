@@ -101,6 +101,11 @@ body {
   font-weight: 200;
 }
 
+footer {
+  color: #FFFFFF;
+  background-color: #0d0d0d;
+}
+
 a:link { 
   color: #FFFFFF; 
   text-decoration: none; 
