@@ -18,6 +18,31 @@ body {
   margin: 4px;
 }
 
+#hero-title {
+  color: #FFFFFF;
+  background-color: #0d0d0d;
+  padding: 64px
+  
+  position: relative;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  font-size: 5rem;
+  margin: 0;
+}
+
+#hero-title img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
 #title, #subtitle {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
