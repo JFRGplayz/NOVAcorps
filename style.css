@@ -22,6 +22,10 @@ p {
   margin: 4px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #40a69e;
+}
+
 #nav-title {
   color: #40a69e;
   background-color: #0d0d0d;
