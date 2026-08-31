@@ -11,6 +11,10 @@ body {
   background-color: #0d0d0d;
 }
 
+p {
+  font-family: sans-serif;
+}
+
 #hero {
   color: #FFFFFF;
   background-color: #0d0d0d;
