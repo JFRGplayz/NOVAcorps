@@ -56,7 +56,7 @@ body {
   top: -39px;
 
   /* Gives the logo the angled look */
-  transform: rotate(36deg);
+  transform: rotate(30deg);
 
   z-index: 2;
 }
