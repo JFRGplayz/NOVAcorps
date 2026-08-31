@@ -104,6 +104,15 @@ body {
 footer {
   color: #FFFFFF; 
   background-color: #0d0d0d;
+
+  margin: 4px;
+  padding: 64px;
+}
+
+footer button {
+  color: #FFFFFF;
+  background-color: #1a1a1a;
+  font-family: sans-serif;
 }
 
 a:link { 
