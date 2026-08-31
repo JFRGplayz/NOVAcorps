@@ -105,6 +105,13 @@ p {
   font-weight: 200;
 }
 
+#mission {
+  background-color: #0d0d0d;
+  color: #FFFFFF;
+  margin: 4px;
+  padding: 64px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
