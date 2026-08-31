@@ -21,7 +21,7 @@ body {
 #hero-title {
   color: #FFFFFF;
   background-color: #0d0d0d;
-  padding: 64px
+  padding: 0;
   
   position: relative;
   display: inline-block;
