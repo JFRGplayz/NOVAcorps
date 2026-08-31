@@ -61,14 +61,11 @@ body {
   z-index: 2;
 }
 
-#title, #subtitle {
+#subtitle {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-
-#title {
-  font-weight: 700;
+  font-weight: 200;
 }
 
 #subtitle {
