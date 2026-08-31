@@ -102,26 +102,30 @@ body {
 }
 
 footer {
-  color: #FFFFFF;
+  color: #FFFFFF; 
   background-color: #0d0d0d;
 }
 
 a:link { 
   color: #FFFFFF; 
+  font-family: sans-serif;
   text-decoration: none; 
 } 
 
 a:visited { 
-  color: #E0F3FF; 
+  color: #E0F3FF;  
+  font-family: sans-serif;
   text-decoration: none; 
 } 
 
 a:hover { 
-  color: #90D5FF; 
+  color: #90D5FF;  
+  font-family: sans-serif;
   text-decoration: none; 
 } 
 
 a:active { 
-  color: #D5FFFF; 
+  color: #D5FFFF;  
+  font-family: sans-serif;
   text-decoration: none; 
 }
