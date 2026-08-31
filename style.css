@@ -34,7 +34,7 @@ body {
 }
 
 /* The logo container */
-#hero-title .logo-wrap {
+#nav-title .logo-wrap, #hero-title .logo-wrap {
   position: relative;
   display: inline-block;
   width: 0;
@@ -44,7 +44,7 @@ body {
 
 
 /* The actual logo */
-#hero-title .logo-wrap img {
+#nav-title .logo-wrap img, #hero-title .logo-wrap img {
   position: absolute;
 
   width: 125px;
