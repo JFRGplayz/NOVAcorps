@@ -33,6 +33,21 @@ body {
   margin: 0;
 }
 
+#hero-title {
+  color: #4bfff0;
+  background-color: #0d0d0d;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 0;
+}
+
 /* The logo container */
 #nav-title .logo-wrap, #hero-title .logo-wrap {
   position: relative;
