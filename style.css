@@ -42,22 +42,6 @@ body {
   z-index: 5;
 }
 
-/* White backing behind the logo */
-#hero-title .logo-wrap::before {
-  content: "";
-  position: absolute;
-
-  width: 85px;
-  height: 85px;
-
-  background-color: #FFFFFF;
-  border-radius: 50%;
-
-  left: -42px;
-  top: -42px;
-
-  z-index: -1;
-}
 
 /* The actual logo */
 #hero-title .logo-wrap img {
@@ -70,9 +54,6 @@ body {
 
   left: -39px;
   top: -39px;
-
-  /* Turns the white logo black */
-  filter: invert(1);
 
   /* Gives the logo the angled look */
   transform: rotate(-18deg);
