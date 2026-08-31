@@ -48,7 +48,6 @@ body {
   margin: 0;
 }
 
-/* The logo container */
 #nav-title .logo-wrap, #hero-title .logo-wrap {
   position: relative;
   display: inline-block;
@@ -57,16 +56,16 @@ body {
   z-index: 5;
 }
 
-
-/* The actual logo */
 #nav-title .logo-wrap img, #hero-title .logo-wrap img {
   position: absolute;
 
+  /* Sizes the logo */
   width: 125px;
   height: 125px;
 
   object-fit: contain;
 
+  /* Positions the logo */
   left: -50px;
   top: -88.5px;
 
