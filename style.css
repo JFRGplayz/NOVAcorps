@@ -19,7 +19,7 @@ body {
 }
 
 #nav-title {
-  color: #4bfff0;
+  color: #40a69e;
   background-color: #0d0d0d;
   padding: 0;
   position: relative;
@@ -34,7 +34,7 @@ body {
 }
 
 #hero-title {
-  color: #4bfff0;
+  color: #40a69e;
   background-color: #0d0d0d;
   padding: 0;
   position: relative;
@@ -66,8 +66,8 @@ body {
   object-fit: contain;
 
   /* Positions the logo */
-  left: -50px;
-  top: -88.5px;
+  left: 30px;
+  top: -18px;
 
   /* Gives the logo the angled look */
   transform: rotate(10deg);
@@ -79,14 +79,14 @@ body {
   position: absolute;
 
   /* Sizes the logo */
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 
   object-fit: contain;
 
   /* Positions the logo */
-  left: -50px;
-  top: -88.5px;
+  left: 15px;
+  top: -12px;
 
   /* Gives the logo the angled look */
   transform: rotate(10deg);
