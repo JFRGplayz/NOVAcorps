@@ -19,7 +19,7 @@ body {
 }
 
 #hero-title {
-  color: #FFFFFF;
+  color: #4bfff0;
   background-color: #0d0d0d;
   padding: 0;
   position: relative;
@@ -47,16 +47,16 @@ body {
 #hero-title .logo-wrap img {
   position: absolute;
 
-  width: 78px;
-  height: 78px;
+  width: 125px;
+  height: 125px;
 
   object-fit: contain;
 
-  left: -39px;
-  top: -39px;
+  left: -50px;
+  top: -88.5px;
 
   /* Gives the logo the angled look */
-  transform: rotate(30deg);
+  transform: rotate(10deg);
 
   z-index: 2;
 }
