@@ -116,6 +116,20 @@ h1, h2, h3, h4, h5, h6 {
   padding: 64px;
 }
 
+#cards {
+  background-color: #0d0d0d;
+  color: #FFFFFF;
+  margin: 4px;
+  padding: 64px;
+}
+
+#card1, #card2, #card3, #card4 {
+  background-color: #0d0d0d;
+  color: #FFFFFF;
+  margin: 4px;
+  padding: 16px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
