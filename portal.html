@@ -1,0 +1,77 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>NOVA | Personnel Portal</title>
+
+        <link rel="stylesheet" href="portal.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <main id="portal">
+
+            <section id="login-container">
+
+                <div id="portal-logo">
+                    <img src="NOVAcorpsLogoWhite.png" alt="NOVA">
+                </div>
+
+                <h1>NOVA PERSONNEL PORTAL</h1>
+
+                <p id="portal-subtitle">
+                    Authorised personnel access only.
+                </p>
+
+                <form id="login-form">
+
+                    <div class="input-group">
+                        <label for="employee-id">EMPLOYEE ID</label>
+
+                        <input
+                            type="text"
+                            id="employee-id"
+                            name="employee-id"
+                            autocomplete="off"
+                            required
+                        >
+                    </div>
+
+                    <div class="input-group">
+                        <label for="access-code">ACCESS CODE</label>
+
+                        <input
+                            type="password"
+                            id="access-code"
+                            name="access-code"
+                            autocomplete="off"
+                            required
+                        >
+                    </div>
+
+                    <button type="submit">
+                        SIGN IN
+                    </button>
+
+                </form>
+
+                <p id="login-message"></p>
+
+                <a href="index.html" id="return-link">
+                    RETURN TO NOVA
+                </a>
+
+            </section>
+
+        </main>
+
+    </body>
+</html>
+```
