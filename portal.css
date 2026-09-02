@@ -172,3 +172,176 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+
+/* Personnel Portal */
+
+#personnel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #0d0d0d;
+  color: #FFFFFF;
+
+  margin: 4px;
+  padding: 24px 40px;
+}
+
+#personnel-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#personnel-brand img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  transform: rotate(10deg);
+}
+
+#personnel-brand h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#personnel-info {
+  text-align: right;
+}
+
+#personnel-info p {
+  margin: 4px 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.75rem;
+  color: #FFFFFF;
+}
+
+#personnel-main {
+  color: #FFFFFF;
+  margin: 4px;
+}
+
+#welcome {
+  background-color: #0d0d0d;
+  padding: 48px;
+  margin-bottom: 4px;
+}
+
+#welcome h2 {
+  margin-top: 0;
+}
+
+#welcome p {
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.portal-section {
+  background-color: #0d0d0d;
+  padding: 48px;
+  margin-bottom: 4px;
+}
+
+.portal-section h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.resource-card {
+  display: block;
+
+  background-color: #1a1a1a;
+  color: #FFFFFF;
+
+  padding: 28px;
+  min-height: 120px;
+
+  border-radius: 20px;
+
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.resource-card:hover {
+  outline: 2px solid #40a69e;
+}
+
+.resource-card h3 {
+  margin-top: 0;
+}
+
+.resource-card p {
+  line-height: 1.5;
+}
+
+.restricted {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.restricted:hover {
+  outline: none;
+}
+
+.restricted span {
+  color: #40a69e;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.7rem;
+}
+
+#personnel-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #0d0d0d;
+  color: #FFFFFF;
+
+  margin: 4px;
+  padding: 32px 40px;
+}
+
+#personnel-footer p {
+  margin: 0;
+}
+
+#personnel-footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#personnel-footer a:hover {
+  color: #40a69e;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  #personnel-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  #personnel-info {
+    text-align: left;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portal-section,
+  #welcome {
+    padding: 30px;
+  }
+
+}
