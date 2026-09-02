@@ -116,12 +116,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 64px;
 }
 
-#cards {
+#card-backer {
+  background-color: #0d0d0d;
+  color: #FFFFFF;
+  margin: 4px;
+  padding: 64px;
+}
+
+#cushioning {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  background-color: #0d0d0d;
-  color: #FFFFFF;
   margin: 4px;
   padding: 64px;
 }
