@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-.history, .mission, .approach, .commitment {
+#history, #mission, #approach, #commitment {
   background-color: #0d0d0d;
   color: #FFFFFF;
   margin: 4px;
