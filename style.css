@@ -15,7 +15,7 @@ p {
   font-family: sans-serif;
 }
 
-#hero {
+#home-hero, about-hero {
   color: #FFFFFF;
   background-color: #0d0d0d;
   padding: 64px;
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-#mission {
+#hisory, #mission, #approach, #commitment {
   background-color: #0d0d0d;
   color: #FFFFFF;
   margin: 4px;
