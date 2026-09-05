@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-#history, #mission, #approach, #commitment {
+.history, .mission, .approach, .commitment {
   background-color: #0d0d0d;
   color: #FFFFFF;
   margin: 4px;
@@ -123,13 +123,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 64px;
 }
 
-#cushioning {
+.cushioning {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
-#card1, #card2, #card3, #card4 {
+.card1, .card2, .card3, .card4 {
   background-color: #1a1a1a;
   border: 0px solid #1a1a1a;
   border-radius: 32px;
