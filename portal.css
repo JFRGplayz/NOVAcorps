@@ -188,29 +188,29 @@ h1, h2, h3, h4, h5, h6 {
   padding: 24px 40px;
 }
 
-#personnel-brand {
+.personnel-brand {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-#personnel-brand img {
+.personnel-brand img {
   width: 55px;
   height: 55px;
   object-fit: contain;
   transform: rotate(10deg);
 }
 
-#personnel-brand h1 {
+.personnel-brand h1 {
   margin: 0;
   font-size: 1.5rem;
 }
 
-#personnel-info {
+.personnel-info {
   text-align: right;
 }
 
-#personnel-info p {
+.personnel-info p {
   margin: 4px 0;
   font-family: "Orbitron", sans-serif;
   font-size: 0.75rem;
