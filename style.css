@@ -15,7 +15,7 @@ p {
   font-family: sans-serif;
 }
 
-#home-hero, #about-hero {
+#home-hero, #about-hero, #careers-hero {
   color: #FFFFFF;
   background-color: #0d0d0d;
   padding: 64px;
@@ -138,6 +138,36 @@ h1, h2, h3, h4, h5, h6 {
   padding: 32px;
   width: 512px;
   height: 100px;
+}
+
+#why-nova {
+  background-color: #0d0d0d;
+  margin: 4px;
+  padding: 64px;
+}
+
+#why-nova p {
+  color: #FFFFFF;
+}
+
+#openings {
+  background-color: #0d0d0d;
+  margin: 4px;
+  padding: 64px;
+}
+
+#openings p {
+  color: #FFFFFF;
+}
+
+#application {
+  background-color: #0d0d0d;
+  margin: 4px;
+  padding: 64px;
+}
+
+#application p {
+  color: #FFFFFF;
 }
 
 footer {
