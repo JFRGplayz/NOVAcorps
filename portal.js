@@ -13,6 +13,7 @@ loginForm.addEventListener("submit", function(event) {
         accessCode === "NOVA-01"
     ) {
 
+        sessionStorage.setItem("novaAccess", "granted");
         window.location.href = "personnel.html";
 
     } else {
