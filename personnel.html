@@ -17,7 +17,16 @@
 
     <body>
 
-        <script>
+        <body>
+
+            <div id="restricted-screen">
+                <h1>RESTRICTED ACCESS.</h1>
+                <p>AUTHENTICATION REQUIRED.</p>
+                <p>REDIRECTING...</p>
+            </div>
+
+        <main id="personnel-content">
+                   <script>
             if (sessionStorage.getItem("novaAccess") !== "granted") {
                 window.location.href = "portal.html";
             }
@@ -104,6 +113,9 @@
             <a href="portal.html">LOG OUT</a>
 
         </footer>
+            
+        </main>
 
+        <script src="personnel.js"></script>
     </body>
 </html>
