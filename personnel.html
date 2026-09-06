@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="refresh" content="0; url=portal.html">
         
         <title>NOVA | Personnel Portal</title>
 
@@ -17,6 +16,12 @@
     </head>
 
     <body>
+
+        <script>
+            if (sessionStorage.getItem("novaAccess") !== "granted") {
+                window.location.href = "portal.html";
+            }
+        </script>
 
         <header id="personnel-header">
 
