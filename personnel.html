@@ -6,6 +6,13 @@
         
         <title>NOVA | Personnel Portal</title>
 
+
+        <script>
+            if (sessionStorage.getItem("novaAuthenticated") !== "true") {
+                window.location.replace("portal.html");
+            }
+        </script>
+        
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -40,7 +47,7 @@
         </header>
 
 
-        <main id="personnel-main">
+        <div id="personnel-main">
 
             <section id="welcome">
 
@@ -96,14 +103,14 @@
 
             </section>
 
-        </main>
+        </div>
 
 
         <footer id="personnel-footer">
 
             <p>NOVA INTERNAL NETWORK</p>
 
-            <a href="portal.html">LOG OUT</a>
+            <a href="#" id="logout-link">LOG OUT</a>
 
         </footer>
             
