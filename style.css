@@ -140,6 +140,21 @@ h1, h2, h3, h4, h5, h6 {
   height: 100px;
 }
 
+.card1-5, .card2-5, .card3-5, .card4-5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
+  background-color: #1a1a1a;
+  border: 0px solid #1a1a1a;
+  border-radius: 32px;
+  color: #FFFFFF;
+  margin: 4px;
+  padding: 32px;
+  width: 512px;
+  height: 100px;
+}
+
 #why-nova {
   background-color: #0d0d0d;
   margin: 4px;
