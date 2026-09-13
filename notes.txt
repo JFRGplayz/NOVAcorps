@@ -1,4 +1,4 @@
-Add to each: 
+Add to html files (index onwards): 
   <meta name="description" content="NOVA explores new approaches to energy, observation, vacuum science, and advanced technology through innovative research and experimentation.">
   <meta name="keywords" content="NOVA, science, research, technology, energy, vacuum science, particle science, material science">
   <meta name="author" content="NOVA Corporations">
