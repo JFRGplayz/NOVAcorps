@@ -1,4 +1,25 @@
-Complete the favicons.
-Complete contact.html
-Complete the rest of the public site.
+Add to each: 
+  <meta name="description" content="NOVA explores new approaches to energy, observation, vacuum science, and advanced technology through innovative research and experimentation.">
+  <meta name="keywords" content="NOVA, science, research, technology, energy, vacuum science, particle science, material science">
+  <meta name="author" content="NOVA Corporations">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="googlebot" content="index, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NOVA | Projects">
+  <meta property="og:description" content="Exploring new approaches to energy, observation, vacuum science, and advanced technology through innovative research and experimentation.">
+  <meta property="og:image" content="https://jfrgplayz.github.io/NOVAcorps/NOVAcorpsLogoWhite.png">
+  <meta property="og:url" content="https://jfrgplayz.github.io/NOVAcorps/projects.html">
+  <meta property="og:site_name" content="NOVA Corporations">
+  <meta property="og:locale" content="en_NZ">
+
+  <link rel="canonical" href="https://jfrgplayz.github.io/NOVAcorps/(FILE NAME)">
+
+Construct the publications.html page.
+
 Fill out the public site's information.
+
+Work on Staff Level 1
