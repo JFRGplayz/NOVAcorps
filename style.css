@@ -15,7 +15,7 @@ p {
   font-family: sans-serif;
 }
 
-#home-hero, #about-hero, #careers-hero, #contact-hero, #facilities-hero {
+#home-hero, #about-hero, #careers-hero, #contact-hero, #facilities-hero, #projects-hero {
   color: #FFFFFF;
   background-color: #0d0d0d;
   padding: 64px;
@@ -129,20 +129,26 @@ h1, h2, h3, h4, h5, h6 {
   gap: 20px;
 }
 
+.list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
 @media (max-width: 800px) {
   .cushioning {
     grid-template-columns: 1fr;
   }
 }
 
-.card1, .card2, .card3, .card4 {
+.card1, .card2, .card3, .card4, card5, {
   background-color: #1a1a1a;
   border-radius: 32px;
   color: #FFFFFF;
   margin: 4px;
   padding: 32px;
   width: auto;
-  height: 100px;
+  height: auto;
 }
 
 .card1-5, .card2-5, .card3-5, .card4-5 {
@@ -156,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 4px;
   padding: 32px;
   width: auto;
-  height: 100px;
+  height: auto;
 }
 
 #why-nova {
