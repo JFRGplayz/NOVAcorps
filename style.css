@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 64px;
 }
 
-#card-backer {
+.card-backer {
   background-color: #0d0d0d;
   color: #FFFFFF;
   margin: 4px;
