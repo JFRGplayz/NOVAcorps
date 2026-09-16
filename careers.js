@@ -37,6 +37,7 @@ form.addEventListener("submit", async function(event) {
             alert(
                 "APPLICATION RECEIVED\n\n" +
                 "Clearance Level: " + result.clearance + "\n" +
+                "Employee ID: NRP-1047"
                 "Personnel Code: " + result.code
             );
 
