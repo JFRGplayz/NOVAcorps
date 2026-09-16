@@ -1,3 +1,19 @@
+alert("NOVA JS LOADED");
+
+const form = document.getElementById("application-form");
+
+form.addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    alert("FORM SUBMITTED");
+});
+
+
+
+
+
+
+
 const form = document.getElementById("application-form");
 
 form.addEventListener("submit", async function(event) {
