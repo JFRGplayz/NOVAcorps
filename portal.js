@@ -5,12 +5,16 @@ loginForm.addEventListener("submit", function(event) {
 
     event.preventDefault();
 
-    const employeeID = document.getElementById("employee-id").value;
-    const accessCode = document.getElementById("access-code").value;
+    const employeeID = document.getElementById("employee-id").value.trim();
+    const accessCode = document.getElementById("access-code").value.trim();
+
+    // Get the applicant's generated NOVA credentials
+    const storedEmployeeID = localStorage.getItem("novaPersonnelID");
+    const storedAccessCode = localStorage.getItem("novaClearanceCode");
 
     if (
-        employeeID === "NRP-1047" &&
-        accessCode === "NOVA-01"
+        employeeID === storedEmployeeID &&
+        accessCode === storedAccessCode
     ) {
 
         sessionStorage.setItem("novaAuthenticated", "true");
