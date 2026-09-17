@@ -42,6 +42,12 @@ if (!form) {
             const result = await response.json();
 
             if (result.success) {
+
+                // Save the fictional NOVA credentials
+                localStorage.setItem("novaPersonnelID", result.personnelID);
+                localStorage.setItem("novaClearanceCode", result.code);
+                localStorage.setItem("novaClearance", result.clearance);
+
                 alert(
                     "APPLICATION RECEIVED\n\n" +
                     "Clearance Level: " + result.clearance + "\n" +
