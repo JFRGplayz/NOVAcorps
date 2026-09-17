@@ -52,7 +52,8 @@ if (!form) {
                     "APPLICATION RECEIVED\n\n" +
                     "Clearance Level: " + result.clearance + "\n" +
                     "Employee ID: " + result.personnelID + "\n" +
-                    "Personnel Code: " + result.code
+                    "Personnel Code: " + result.code + "\n\n" +
+                    "RETAIN THESE PERSONNEL CODES FOR FUTURE PURPOSES"
                 );
 
                 form.reset();
