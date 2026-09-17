@@ -45,7 +45,7 @@ if (!form) {
                 alert(
                     "APPLICATION RECEIVED\n\n" +
                     "Clearance Level: " + result.clearance + "\n" +
-                    "Employee ID: NRP-1047\n" +
+                    "Employee ID: " + result.personnelID + "\n" +
                     "Personnel Code: " + result.code
                 );
 
