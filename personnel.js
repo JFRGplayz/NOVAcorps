@@ -7,3 +7,9 @@ logoutLink.addEventListener("click", function(event) {
 
     window.location.href = "portal.html";
 });
+
+const employeeID = localStorage.getItem("novaPersonnelID");
+
+if (employeeID) {
+    document.getElementById("employee-id").textContent = employeeID;
+}
