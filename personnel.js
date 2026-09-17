@@ -12,4 +12,5 @@ const employeeID = localStorage.getItem("novaPersonnelID");
 
 if (employeeID) {
     document.getElementById("employee-id").textContent = employeeID;
+    document.getElementById("welcome-id").textContent = employeeID;
 }
